@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./experiments.component.css']
 })
 export class ExperimentsComponent implements OnInit {
+  experiment: object = ["Mars soil sample", "Plant growth in habitat", "Human bone density"]
+
+  // experimentBeingEdited: object = null;
 
   constructor() { }
 
   ngOnInit() {
   }
 
-}
+
+
+ }
